@@ -1,4 +1,6 @@
 @use './base/reset';
 @use './base/global';
+
+@use './layout/default';
 @use './components/user-input';
 @use './components/preview';

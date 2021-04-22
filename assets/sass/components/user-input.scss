@@ -1,5 +1,22 @@
 @use '../abstract/variables' as var;
 
 .user-input {
+  border: .1rem solid var.$color-white;
+  padding: 2.4rem;
+  border-radius: 4px;
 
+  .schema-types {
+    input {
+      margin: 2rem 0;
+      padding: .8rem;
+      width: 90%;
+      height: auto;
+      box-shadow: 0 1px 2px 1px white;
+      border: none;
+    }
+
+    datalist {
+
+    }
+  }
 }

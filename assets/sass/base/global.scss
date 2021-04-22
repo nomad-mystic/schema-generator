@@ -15,10 +15,16 @@ html {
 
 body {
   background: var.$color-purple-700;
+  color: var.$color-white;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-family: var.$default-mono-400;
 }
 
 .container {
-  max-width: 1124px;
+  max-width: 1240px;
   padding: 0 2rem;
   margin: 0 auto;
 }

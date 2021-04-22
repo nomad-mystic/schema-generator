@@ -1,6 +1,22 @@
 <template>
   <div class="container">
-    <Preview />
+    <header>
+      <div class="header">
+        <Header />
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="user-input">
+          <UserInput />
+        </div>
+      </section>
+      <section>
+        <div class="preview">
+          <Preview />
+        </div>
+      </section>
+    </main>
   </div>
 </template>
 
